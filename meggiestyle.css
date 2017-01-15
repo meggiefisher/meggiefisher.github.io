@@ -25,7 +25,6 @@
 	font-family: 'Megrim',cursive;
 	font-size: 20px;
 	text-align: center;
-	color: pink;
 	margin-top: 10px;
 }	
 
@@ -41,9 +40,11 @@ li {
 h1 {
 	font-family: 'Amatic SC', cursive;
 	font-size: 200px;
+	color: pink;
 }
 
 h2 {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
+	color: green;
 }
