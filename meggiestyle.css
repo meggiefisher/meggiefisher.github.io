@@ -7,6 +7,7 @@
 .header {
 	margin: auto;
 	text-align: center;
+	border: 1px black;
 }
 
 .navigator {
@@ -14,6 +15,7 @@
 	font-size: 20px;
 	margin: auto;
 	text-align: center;
+	border: 1px black;
 }
 
 .redirect {
@@ -22,6 +24,7 @@
 	font-size: 20px;
 	text-align: center;
 	color: pink;
+	border: 1px black;
 }	
 
 p {
