@@ -8,6 +8,8 @@
 .header {
 	margin: auto;
 	text-align: center;
+	padding: 20px;
+	margin: 10px;
 }
 
 .navigator {
@@ -15,6 +17,7 @@
 	font-size: 20px;
 	margin: auto;
 	text-align: center;
+	padding: 4px;
 }
 
 .redirect {
@@ -23,6 +26,7 @@
 	font-size: 20px;
 	text-align: center;
 	color: pink;
+	margin-top: 10px;
 }	
 
 p {
@@ -36,6 +40,7 @@ li {
 
 h1 {
 	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
 }
 
 h2 {
