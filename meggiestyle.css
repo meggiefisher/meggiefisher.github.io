@@ -4,11 +4,11 @@
 	box-sizing: border-box;
 }
 
-h1 {
+#header-text {
 	font-family: 'Amatic SC', cursive;
 }
 
-h2 {
+#header-subtext {
 	font-family: 'Shadows Into Light', cursive;
 }
 
