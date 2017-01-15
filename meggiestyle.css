@@ -13,9 +13,13 @@ h2 {
 }
 
 .navigator {
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Megrim', cursive;
 	font-size: 20px;
 	margin: auto;
+}
+
+p {
+	font-family: 'Patrick Hand', cursive;
 }
 
 .header {
