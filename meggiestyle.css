@@ -8,10 +8,13 @@ h1 {
 	font-family: 'Amatic SC', cursive;
 }
 
-.header p {
+h2 {
 	font-family: 'Shadows Into Light', cursive;
 }
 
 .navigator {
 	font-family: 'Shadows Into Light', cursive;
+}
+
+.header {
 }
