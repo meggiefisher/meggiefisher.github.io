@@ -25,3 +25,8 @@ p {
 .header {
 	margin: auto;
 }
+
+li {
+	display: inline-block;
+	margin: auto;
+}
