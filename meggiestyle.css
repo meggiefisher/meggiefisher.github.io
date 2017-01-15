@@ -4,29 +4,39 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	font-family: 'Amatic SC', cursive;
-}
-
-h2 {
-	font-family: 'Shadows Into Light', cursive;
+.header {
+	margin: auto;
+	text-align: center;
 }
 
 .navigator {
 	font-family: 'Megrim', cursive;
 	font-size: 20px;
 	margin: auto;
+	text-align: center;
 }
+
+.redirect {
+	margin: auto;
+	font-family: 'Megrim',cursive;
+	font-size: 20px;
+	text-align: center;
+	color: pink;
+}	
 
 p {
 	font-family: 'Patrick Hand', cursive;
 }
 
-.header {
-	margin: auto;
-}
-
 li {
 	display: inline-block;
 	margin: auto;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
 }
