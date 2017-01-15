@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	border: 1px;
+	border-width: 10px;
 	border-color: black;
 }
 
 .header {
-  background-image: url("meggiefisher.github.io/IMG_0044.jpg");
+  background-image: url("IMG_0044.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
