@@ -20,11 +20,11 @@ div {
 	width: 100%
 	left: 0px;
 	top: 0px;
-	padding-top: 25px;
+	padding-top: 350px;
 	overflow-x: auto;
 	z-index: 1000;
 	border-bottom: 3px solid #999;
-	height: 80px;
+	height: 500px;
 }
 
 .navigator a {
@@ -42,14 +42,13 @@ div {
 }
 
 .header {
-  background-image: url("IMG_1999.jpg");
+  background-image: url("IMG_2789.jpg");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 500px;
   width: 100%;
   position: fixed;
   z-index: 999;
-  top: 80px;
   margin: auto;
 }
 
@@ -64,7 +63,7 @@ div {
 
 .container {
 	position: fixed;
-	top: 400px;
+	top: 500px;
 }
 
 p {
@@ -94,9 +93,9 @@ a:hover {
 #header-content {
   margin: auto;
   box-sizing: border-box;
-  padding-top: 50px;
+  padding-top: 100px;
   font-size: 150px;
-  height: 300px;
+  height: 500px;
   text-align: center;
   position: fixed;
   width: 100%;
