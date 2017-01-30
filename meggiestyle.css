@@ -1,34 +1,55 @@
-* {
+
+body {
+	background-color: #FFF;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	border-width: 10px;
-	border-color: black;
 }
 
-.header {
-  background-image: url("IMG_0044.jpg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
-}
-
-#header-content {
-  border: 1px solid #FFF;
-  padding: 30px 10px;
-  position: relative;
-  top: 20%;
-  width: 60%;
-  margin: auto;
+div {
+	box-sizing: border-box;
+	width: 100%;
 }
 
 .navigator {
 	font-family: 'Megrim', cursive;
 	font-size: 20px;
-	margin: auto;
+	background color: white;
 	text-align: center;
-	padding: 4px;
+	position: fixed;
+	width: 100%
+	left: 0px;
+	top: 0px;
+	padding: 10px 0;
+	overflow-y: auto;
+	z-index: 1000;
+	border-bottom: 5px solid #999;
+}
+
+.navigator a {
+	border-radius: 5px;
+	border: 1px solid grey;
+	color: white;
+	background-color: grey;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.navigator a:hover {
+	background-color: white;
+	color: pink;
+}
+
+.header {
+  background-image: url("IMG_1999.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 80px;
+  margin: auto;
 }
 
 .redirect {
@@ -37,26 +58,67 @@
 	font-size: 20px;
 	text-align: center;
 	margin-top: 10px;
+	position: relative;
 }	
+
+.container {
+	position: fixed;
+	top: 400px;
+}
 
 p {
 	font-family: 'Patrick Hand', cursive;
+	top: 10px;
+	position: relative;
+}
+
+ul {
+	margin: 5px auto;
+	text-align: center;
 }
 
 li {
 	display: inline-block;
-	margin: auto;
+}
+
+a {
+	color: grey;
+}
+
+a:hover {
+	color: pink;
+}
+
+#header-content {
+  border: 1px solid black;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 50px;
+  font-size: 150px;
+  height: 300px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-weight: 500;
+  overflow-y: auto;
+  line-height: 100px;
 }
 
 h1 {
+	font-size: 50px;
 	font-family: 'Amatic SC', cursive;
-	font-size: 42px;
-	color: pink;
+	color: white;
 	font-weight: 500;
+	text-align: center;
+	margin: auto;
 }
 
 h2 {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Shadows Into Light', serif;
 	font-size: 30px;
-	color: green;
+	color: pink;
+	top: 10px;
+	position: relative;
 }
