@@ -92,8 +92,9 @@ div {
 }
 
 .container {
-	position: fixed;
+	position: relative;
 	top: 320px;
+	overflow-y: auto;
 }
 
 .button {
