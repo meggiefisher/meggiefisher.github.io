@@ -72,7 +72,7 @@ div {
 
 .footer {
 	margin: auto;
-	font-family: 'Patrick Hand',cursive;
+	font-family: 'Shadows Into Light',cursive;
 	font-size: 10px;
 	text-align: center;
 	position: relative;
@@ -154,7 +154,7 @@ div {
 }
 
 p {
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Shadows Into Light', cursive;
 	top: 10px;
 	position: relative;
 }
@@ -228,7 +228,6 @@ h3 {
 #resume p {
 	top: 0px;
 	font-size: 15px;
-	font-family: 'Shadows Into Light',cursive;
 }
 
 h1 {
