@@ -107,7 +107,6 @@ div {
 .left {
 	width: 75%;
   	margin: 10px 0;
-	border-right: 2px dashed pink;
 	float: left;
 	padding: 0 2.5%;
 	text-align: left;
@@ -119,6 +118,7 @@ div {
 	float: right;
 	padding: 0 2.5%;
 	text-align: left;
+	border-left: 2px dashed pink;
 }
 
 .button {
@@ -178,6 +178,7 @@ h1 {
 	color: grey;
 	line-height: 60px;
 	padding-left: 10px;
+	margin: 10px;
 }
 
 #homepage h1 {
@@ -253,6 +254,7 @@ ul {
 	font-size: 15px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: left;
+	padding-left: 30px;
 }
 
 .navigator li {
