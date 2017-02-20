@@ -61,8 +61,26 @@ div {
 #homepage .header {
   height: 500px;
  }
+<<<<<<< HEAD
  
 .container {
+=======
+
+.redirect {
+	margin: 20px auto;
+	font-family: 'Megrim',cursive;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}	
+
+.footer {
+	margin: auto;
+	font-family: 'Shadows Into Light',cursive;
+	font-size: 10px;
+	text-align: center;
+>>>>>>> origin/master
 	position: relative;
 	top: 320px;
 	overflow-y: auto;
@@ -145,6 +163,7 @@ div {
 	padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .redirect {
 	margin: 30px auto;
 	font-family: 'Amatic SC', sans-serif;
@@ -153,6 +172,13 @@ div {
 	clear: both;
 	bottom: 20px;
 }	
+=======
+p {
+	font-family: 'Shadows Into Light', cursive;
+	top: 10px;
+	position: relative;
+}
+>>>>>>> origin/master
 
 .footer {
 	margin: auto;
@@ -238,9 +264,12 @@ p {
 	top: 5px;
 	margin: auto 5px;
 	font-size: 15px;
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: left;
 	padding-bottom: 5px;
+=======
+>>>>>>> origin/master
 }
 
 
