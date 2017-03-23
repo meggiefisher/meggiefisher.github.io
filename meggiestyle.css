@@ -55,6 +55,7 @@ div {
 	z-index: 1000;
 	border-bottom: 3px solid #999;
 	height: 300px;
+	overflow-y: hidden;
 }
 
 #homepage .navigator {
