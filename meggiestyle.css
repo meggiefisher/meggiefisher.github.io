@@ -124,6 +124,10 @@ div {
 	float: left;
 }
 
+.round {
+	border-radius: 50px;
+}
+
 .subright img,
 .subleft img {
 	width: 100%;
@@ -180,7 +184,7 @@ div {
 
 .button:hover {
 	background-color: white;
-	color: pink;
+	color: #21090c;
 }
 
 #resume {
@@ -239,9 +243,10 @@ h1 {
 }
 
 h2 {
-	font-family: 'Shadows Into Light', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
 	font-size: 30px;
-	color: pink;
+	color: #21090c;
 	position: relative;
 	top: 8px;
 }
@@ -253,6 +258,7 @@ h2 {
 	font-size: 40px;
 	font-family: 'Amatic SC', sans-serif;
 	line-height: 30px;
+	color: pink;
 }
 
 #work h2 {
@@ -264,6 +270,7 @@ h2 {
 	font-size: 300%;
 	text-align: center;
 	font-family: 'Amatic SC', sans-serif;
+	color: pink;
 }
 
 h3 {
@@ -306,7 +313,7 @@ p {
 }
 
 #work p {
-	margin: auto;
+	margin: 5px auto;
 	text-align: center;
 }
 
@@ -398,12 +405,20 @@ a {
 
 a:hover,
 .class_button:hover {
-	color: pink;
+	color: #21090c;
+	border-radius: 15px;
 }
 
 .navigator a:hover, #page a {
 	background-color: white;
-	color: pink;
-	border-radius: 20px;
+	color: #21090c;
 	border-color: white;
+}
+
+#page a {
+	border-radius: 10px;
+}
+
+#page a:hover{
+	border-radius: 15px;
 }
