@@ -13,10 +13,6 @@ body {
     -webkit-transition: opacity 2s; /* Safari */
 }
 
-#photos {
-	background-image: url("IMG_2566.jpg");
-}
-
 div {
 	box-sizing: border-box;
 	width: 100%;
@@ -96,6 +92,15 @@ div {
 	 background-image: url("IMG_3405.JPG")
  }
  
+ #resume {
+	margin: 0 auto 30px auto;
+	padding: 0;
+	padding-bottom: 10px;
+	height: 100%;
+	position: absolute;
+	overflow: visible;
+}
+ 
 .container {
 	position: relative;
 	top: 320px;
@@ -105,14 +110,13 @@ div {
 }
 
 .social {
-	margin: 50px auto 100px auto;
+	margin: 50px auto;
 	color: grey;
 }
 
 .social-text {
 	font-family: 'Shadows Into Light', sans-serif;
 	padding-top: 10px;
-	color: black;
 }
 
 .subright,
@@ -200,13 +204,16 @@ div {
 	color: #21090c;
 }
 
-#resume {
-	margin: 0 auto 30px auto;
-	padding: 0;
-	padding-bottom: 10px;
-	height: 100%;
-	position: absolute;
-	overflow: visible;
+#connect .me {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+}
+
+#connect .me img {
+	width: 45%;
+	border-radius: 50px;
 }
 
 .redirect {
@@ -219,11 +226,10 @@ div {
 }	
 
 .footer {
-	margin: auto;
+	margin-bottom: 20px;
 	font-family: 'Shadows Into Light', sans-serif;
 	font-size: 10px;
 	text-align: center;
-	bottom: 20px;
 	width: 100%;
 }
 
@@ -402,14 +408,14 @@ ul {
 	border-radius: 10px;
 	margin: 10px;
 	padding: 10px;
-	background-color: black;
+	background-color: grey;
 	display: inline-block;
 	height: 50px;
 }
 
 .social li:hover {
 	background-color: white;
-	color: pink;
+	color: #21090c;
 }
 
 a {
