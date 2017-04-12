@@ -13,10 +13,6 @@ body {
     -webkit-transition: opacity 2s; /* Safari */
 }
 
-#connect {
-	background-image: url("IMG_0047.jpg");
-}
-
 #photos {
 	background-image: url("IMG_2566.jpg");
 }
@@ -69,7 +65,6 @@ div {
 }
 
 .header {
-  background-image: url("IMG_2789.JPG");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -82,6 +77,23 @@ div {
 #homepage .header {
 	height: 100%;
 	overflow-y: auto;
+	background-image: url("IMG_2789.JPG")
+ }
+ 
+ #connect .header {
+	background-image: url("IMG_1220.JPG");
+ }
+ 
+ #about .header {
+	 background-image: url("IMG_0047.JPG")
+ }
+ 
+ #work .header {
+	 background-image: url("IMG_3068.JPG")
+ }
+ 
+ #resumeheader {
+	 background-image: url("IMG_3405.JPG")
  }
  
 .container {
@@ -100,6 +112,7 @@ div {
 .social-text {
 	font-family: 'Shadows Into Light', sans-serif;
 	padding-top: 10px;
+	color: black;
 }
 
 .subright,
@@ -233,13 +246,14 @@ h1 {
 }
 
 #homepage h1 {
-  box-sizing: border-box;
-  padding-top: 100px;
-  font-size: 1000%;
-  height: auto;
-  position: relative;
-  width: 100%;
-  line-height: 1.2;
+	box-sizing: border-box;
+	padding-top: 100px;
+	font-size: 1000%;
+	height: auto;
+	position: relative;
+	width: 100%;
+	line-height: 1.2;
+	color: #21090c;
 }
 
 h2 {
@@ -251,8 +265,12 @@ h2 {
 	top: 8px;
 }
 
+#connect h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
 #resume h2 {
-	text-align: left;
 	text-decoration: none;
 	top: 0px;
 	font-size: 40px;
@@ -270,7 +288,7 @@ h2 {
 	font-size: 300%;
 	text-align: center;
 	font-family: 'Amatic SC', sans-serif;
-	color: pink;
+	color: white;
 }
 
 h3 {
@@ -278,6 +296,10 @@ h3 {
 	font-family: 'Amatic SC', sans-serif;
 	font-height: 20px;
 	margin: 30px auto 5px auto;
+}
+
+#connect h3 {
+	text-align: center;
 }
 
 #resume h3 {
@@ -380,7 +402,7 @@ ul {
 	border-radius: 10px;
 	margin: 10px;
 	padding: 10px;
-	background-color: grey;
+	background-color: black;
 	display: inline-block;
 	height: 50px;
 }
