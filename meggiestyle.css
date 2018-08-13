@@ -93,7 +93,7 @@ div {
  }
  
  #photos .header {
-	 background-image: url("IMG_7249.JPG")
+	 background-image: url("me.jpg")
  }
  
  #resume {
@@ -113,6 +113,14 @@ div {
 	overflow: auto;
 }
 
+/*
+#photos .container {
+	background-image: url("IMG_0184.jpg");
+	top: 300px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+*/
 .social {
 	margin: 50px auto;
 	color: grey;
@@ -445,6 +453,7 @@ a:hover,
 	background-color: white;
 	color: #21090c;
 	border-color: white;
+	letter-spacing: 2px;
 }
 
 #page a {
