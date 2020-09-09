@@ -77,19 +77,19 @@ div {
  }
  
  #connect .header {
-	background-image: url("Welcome.JPG");
+	background-image: url("Welcome.jpeg");
  }
  
  #todo .header {
-	 background-image: url("Polaroid.jpg")
+	 background-image: url("Polaroid.jpeg")
  }
  
  #travel .header {
-	 background-image: url("Beach2.JPG")
+	 background-image: url("Beach2.jpeg")
  }
  
  #registry {
-	 background-image: url("Kiss2.JPG")
+	 background-image: url("Kiss2.jpeg")
  }
  
  #resume {
