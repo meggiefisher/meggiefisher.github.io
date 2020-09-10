@@ -73,23 +73,23 @@ div {
 #homepage .header {
 	height: 100%;
 	overflow-y: auto;
-	background-image: url("Proposal2.jpeg")
+	background-image: url("Photos/Proposal2.jpeg")
  }
  
  #connect .header {
-	background-image: url("Welcome.jpeg");
+	background-image: url("Photos/Welcome.jpeg");
  }
  
  #todo .header {
-	 background-image: url("Proposal.jpeg")
+	 background-image: url("Photos/Proposal.jpeg")
  }
  
  #travel .header {
-	 background-image: url("athporch.jpg")
+	 background-image: url("Photos/athporch.jpg")
  }
  
  #registry {
-	 background-image: url("Kiss2.jpeg")
+	 background-image: url("Photos/Kiss2.jpeg")
  }
  
  #resume {
