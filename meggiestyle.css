@@ -252,7 +252,7 @@ div {
 
 h1 {
 	font-size: 100px;
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	color: white;
 	font-weight: 500;
 	text-align: center;
@@ -310,7 +310,6 @@ h2 {
 #homepage h2 {
 	font-size: 300%;
 	text-align: center;
-	font-family: 'Amatic SC', sans-serif;
 	color: white;
 }
 
