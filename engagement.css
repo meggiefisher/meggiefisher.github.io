@@ -98,7 +98,6 @@ div {
 
 .social {
 	margin: 50px auto;
-	color: grey;
 }
 
 .social-text {
@@ -347,10 +346,6 @@ ul {
 .social li:hover {
 	background-color: white;
 	color: #a99c40;
-}
-
-a {
-	color: grey;
 }
 
 .navigator a {
